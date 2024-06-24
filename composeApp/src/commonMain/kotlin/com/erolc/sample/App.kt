@@ -5,6 +5,7 @@ import androidx.compose.runtime.*
 import com.erolc.mrouter.RouteHost
 import com.erolc.mrouter.register.page
 import com.erolc.sample.page.Home
+import com.erolc.sample.page.route
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 
@@ -16,6 +17,7 @@ fun App() {
             page("home") {
                 Home()
             }
+            route()
         }
     }
 }
